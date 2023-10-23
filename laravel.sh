@@ -62,6 +62,9 @@ sudo systemctl start apache2
 sudo systemctl enable apache2
 
 
+#-----------------------------------------------
+# Clear Composer Cache an Self Update
+#-----------------------------------------------
 composer clearcache
 composer selfupdate
 
