@@ -26,8 +26,8 @@ sudo apt install -y apache2 mariadb-server git
 # Set MySQL Root Password and Create Database
 #-----------------------------------------------
 sudo mysql -u root <<EOF
-ALTER USER 'root'@'localhost' IDENTIFIED BY '$mysql_root_password';
-CREATE DATABASE $laravel_db;
+ALTER USER 'root'@'localhost' IDENTIFIED BY '$DB_PASSWORD';
+CREATE DATABASE $DB_DATABASE;
 EOF
 
 
