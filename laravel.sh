@@ -4,8 +4,8 @@ green_echo() {
   echo -e "\e[32m$1\e[0m"
 }
 
-DB_PASSWORD="CloudDevops247"
-DB_DATABASE="laravel_db"
+readonly DB_PASSWORD="CloudDevops247"
+readonly DB_DATABASE="laravel_db"
 
 
 #-----------------------------------------------
